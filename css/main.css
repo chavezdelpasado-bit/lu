@@ -172,7 +172,7 @@ body {
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #1aaa15;
-  background-image: linear-gradient(to top, #fce700, #fce700);
+  background-image: linear-gradient(to top, #ff0000, #ff0000);
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -192,7 +192,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-image: linear-gradient(to top, #fce700, #fce700);
+  background-image: linear-gradient(to top, #ff0000, #ff0000);
   z-index: 1;
   opacity: 0.8;
 }
@@ -292,14 +292,14 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(255, 251, 0);
+  background-color: rgb(255, 0, 0);
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
           animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #fce700;
+  background-color: #ff0000;
 }
 .flower__light--1 {
   left: -2vmin;
@@ -1350,13 +1350,90 @@ body {
           animation-play-state: paused !important;
 }
 .flowers❤️‍🩹❤️‍🩹{
-  text-align: center;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 2.5em;
-  color: #fce700;
-  padding: 10px;
+  text-align: left;
+  position: fixed;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  color: #ffd700;
+  padding: 30px;
   border-radius: 10px;
   z-index: 1000;
+  max-width: 400px;
+  line-height: 1.6;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.flowers❤️‍🩹❤️‍🩹 h1 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #ffd700;
+}
+
+.flowers❤️‍🩹❤️‍🩹 p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #ffd700;
+}
+
+/* Responsive para tablets */
+@media (max-width: 1024px) {
+  .flowers❤️‍🩹❤️‍🩹 {
+    right: 20px;
+    max-width: 350px;
+    font-size: 1.3em;
+    padding: 20px;
+  }
+  
+  .flowers❤️‍🩹❤️‍🩹 h1 {
+    font-size: 1.5em;
+  }
+  
+  .flowers❤️‍🩹❤️‍🩹 p {
+    font-size: 1em;
+  }
+}
+
+/* Responsive para móvil */
+@media (max-width: 768px) {
+  .flowers❤️‍🩹❤️‍🩹 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    transform: none;
+    max-width: none;
+    font-size: 1em;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .flowers❤️‍🩹❤️‍🩹 h1 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  
+  .flowers❤️‍🩹❤️‍🩹 p {
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .flowers❤️‍🩹❤️‍🩹 {
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    font-size: 0.85em;
+    padding: 10px;
+  }
+  
+  .flowers❤️‍🩹❤️‍🩹 h1 {
+    font-size: 1.1em;
+  }
+  
+  .flowers❤️‍🩹❤️‍🩹 p {
+    font-size: 0.8em;
+  }
 }
